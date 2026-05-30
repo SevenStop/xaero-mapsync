@@ -1,0 +1,19 @@
+# =============================================================================
+#  Xaero MapSync — Python dependencies
+#  Install with: pip install -r requirements.txt
+#
+#  The server needs: fastapi, uvicorn, python-dotenv
+#  The client needs: requests, python-dotenv
+#  Install the full file on both machines — it's safe to have all packages
+#  present regardless of whether you're running the server or client.
+# =============================================================================
+
+# Server
+fastapi>=0.110.0
+uvicorn>=0.29.0
+
+# Client
+requests>=2.31.0
+
+# Both
+python-dotenv>=1.0.0

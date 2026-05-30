@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+
+# Env files — copy *.env.example to *.env and fill in your values
+*.env
+
+# Server runtime data
+golden/
+golden_backups/
+
+# Client runtime data
+backups/
+manifest_cache.json
+
+# Xaero sidecar files written by the sync server
+*.zip.mtime
+*.zip.sha256
+
+# Local map data
+Multiplayer_anarchy.ac/
+
+# Dev/test scratch files in repo root
+clienttest/
+decompiled jar/
+BlockLookups.cpp
+21_29*
+*.PNG
+*.png
+
+# Root-level test zips (the real region files live inside golden/)
+/*.zip
